@@ -1,0 +1,239 @@
+/* DIV COLOR */
+
+w3-color == w3-red, w3-black etc.
+
+Red, Pink, Purple, Deep Purple, Indigo, Blue, Light Blue, Cyan, Aqua, Teal, Green, Light Green, Lime, Sand, Khaki, Yellow, Amber, Orange, Deep Orange, Blue Gray, Brown, Light Gray, Gray, Dark Gray, Pale Red, Pale Yellow, Pale Green, Pale-Blue
+
+
+/* Inside Div Text Color */
+
+w3-text-color == w3-text-red, w3-text-black etc.
+
+/* Div Hover Effect */
+
+w3-hover-color == w3-hover-colorname.
+
+/* Div Hover Text Effect */
+
+w3-hover-text-color == w3-hover-text-colorname.
+
+/* Div == Container */
+
+w3-container 
+
+/* Panel */
+
+w3-panel = This is mostly used for Notes.
+
+/* Border */
+
+w3-border
+
+w3-border-top, w3-border-bottom, w3-border-left, w3-border-right || 
+
+w3-border-color, w3-border-hover-color  ||
+
+w3-leftbar, w3-rightbar, w3-topbar, w3-bottombar ||
+
+w3-round-small, w3-round, w3-round-large, w3-round-xlarge ||
+
+/* Cards */
+
+w3-card, w3-card-2, w3-card-4
+
+w3-hover-shadow
+
+/* Alignment */
+
+w3-center, w3-left-align, w3-right-align
+
+/* Opacity */
+
+w3-opacity
+
+/* Circle */
+
+w3-circle
+
+/* Padding */
+
+w3-padding-16, w3-padding-24, w3-padding-32, w3-padding-48, w3-padding-64
+
+w3-padding==	Adds 8px top and bottom, and 16px left and right padding.
+
+w3-padding-small==	Adds 4px top and bottom, and 8px left and right padding.
+
+w3-padding-large==	Adds 12px top and bottom, and 24px left and right padding.
+
+/* Margins */
+
+w3-margin == adds 16px margin on all sides.
+
+w3-margin-right == adds 16px margin on right side.
+
+w3-margin-top == adds 16px margin on top side.
+
+w3-margin-bottom == adds 16px margin on bottom side.
+
+w3-margin-left == adds 16px margin on left side.
+
+/* Section */
+
+w3-section == adds 16px margin on top and bottom side.
+
+/* Display Containers */
+
+w3-display-container==	Container for w3-display-classes
+
+w3-display-topleft==	Displays content at the top left corner of the w3-display-container
+
+w3-display-topright==	Displays content at the top right corner of the 
+w3-display-container
+
+w3-display-bottomleft==	Displays content at the bottom left corner of the       w3-display-container           
+
+w3-display-bottomright==	Displays content at the bottom right corner of the w3-display-container
+
+w3-display-left==	Displays content to the left (middle left) of the w3-display-container
+
+w3-display-right==	Displays content to the right (middle right) of the w3-display-container
+
+w3-display-middle==	Displays content in the middle (center) of the w3-display-container
+
+w3-display-topmiddle==	Displays content at the top middle of the w3-display-container
+
+w3-display-bottommiddle==	Displays content at the bottom middle of the w3-display-container
+
+w3-display-position==	Displays content at a specified position in the           w3-display-container
+
+w3-left==	Floats an element to the left (float: left)
+
+w3-right==	Floats an element to the right (float: right)
+
+w3-show==	Shows an element (display: block)
+
+w3-hide==	Hides an element (display: none)
+
+/* Display-hover */
+
+w3-display-hover==	Displays content on hover inside the w3-display-container
+
+/* Mobile Responsive Buttons  */
+
+w3-mobile	Adds mobile-first responsiveness to any element. Displays elements as block elements on mobile devices
+
+/* Buttons */
+
+w3-btn	A rectangular button with a shadow hover effect.
+Default color is black.
+
+w3-button	A rectangular button with a gray hover effect.
+Default color is light-gray in W3.CSS version 3.
+Default color is inherited from parent element in version 4.
+
+w3-block	Class that can be used to define a full width (100%) button.
+
+w3-circle	Can be used to define a circular button.
+
+w3-ripple	Can be used to create a ripple effect.
+
+/* Horizontal Bars */
+
+w3-bar	A horizontal bar that can be used to group buttons together.
+(Perfect for horizontal navigation menus)
+
+
+/* Tables. */
+
+w3-table ==	Container for an HTML table
+
+w3-striped ==	Striped table
+
+w3-border ==	Bordered table
+
+w3-bordered ==	Bordered lines
+
+w3-centered ==	Centered table content
+
+w3-hoverable ==	Hoverable table
+
+w3-table-all ==	All properties set
+
+/* Lists */
+
+w3-ul  == <ul class="w3-ul"></ul>
+
+w3-hoverable == Used for lists.
+
+/* Opacity */
+
+w3-opacity
+
+w3-opacity-min
+
+w3-opacity-max
+
+w3-opacity and w3-hover-opacity-off == Opacity off on hover.
+
+
+/* Hovercolors */
+
+w3-hover-grayscale
+
+/* Sepia */
+
+w3-hover-sepia
+
+w3-hover-sepia-min
+
+w3-hover-sepia-max
+
+/* Badges */
+
+w3-badge
+
+/* Tags */
+
+w3-tag
+
+/* Responsive */
+
+w3-half==1/2 | w3-third=1/3 | w3-twothird = 2/3 | w3-quartar= 1/4 | w3-threequarter = 3/4 | 
+
+w3-half	Occupies 1/2 of the window (on medium and large screens)
+
+w3-third	Occupies 1/3 of the window (on medium and large screens)
+
+w3-twothird	Occupies 2/3 of the window (on medium and large screens)
+
+w3-quarter	Occupies 1/4 of the window (on medium and large screens)
+
+w3-threequarter	Occupies 3/4 of the window (on medium and large screens)
+
+w3-rest	Occupies the rest of the column width
+
+w3-col	Defines one column in a 12-column responsive grid
+
+w3-mobile	Adds mobile-first responsiveness to a cell (column). Displays elements as block elements on mobile devices.
+
+/* w3-row */
+
+w3-row	Container for responsive classes, with no padding
+
+w3-row-padding	Container for responsive classes, with 8px left and right padding
+
+w3-content	Container for fixed size centered content
+
+l1 - l12	Responsive sizes for large screens
+
+m1 - m12	Responsive sizes for medium screens
+
+s1 - s12	Responsive sizes for small screens
+
+/* Hidings */
+
+w3-hide-small	Hides content on small screens (less than 601px)
+
+w3-hide-medium	Hides content on medium screens
+
+w3-hide-large	Hides content on large screens (larger than 992px)

@@ -1,0 +1,95 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+	{% include header.html %}
+	<style>
+		{% include karnadesign.css %}
+	</style>
+</head>
+
+<body class="post-template">
+
+	<div class="site-wrapper">
+
+		{% include navigation.html %}
+
+		<main id="site-main" class="site-main outer">
+			<div class="line" id="scrollIndicator"></div>
+			<div class="inner">
+				<article class="post-full post ">
+					<header class="post-full-header">
+						<section class="post-full-meta">
+							<time class="post-full-meta-date" datetime="{{page.datepublished | date_to_string}}">{{page.datepublished | date_to_string}}</time>
+						</section>
+						<h1 class="post-full-title">{{page.title}}</h1>
+					</header>
+					<div class="post-full-author-header">
+						<section class="author-card"> <img class="author-profile-image" src="/uploads/avatar.png"
+								alt="Karunakar Patel" />
+							<section class="author-card-content">
+								<h4 class="author-card-name"><a href="https://www.alltechnotricks.com/Blog.html" target="_top" rel="noopener">Karunakar Patel</a></h4>
+								<p>Read <a href="https://www.alltechnotricks.com/Blog.html" target="_top" rel="noopener">more posts</a> by this author.</p>
+							</section>
+						</section>
+					</div>
+
+					{% include sharingbuttons.html %}
+
+					<figure class="post-full-image">
+						<img src="/{{ page.image }}">
+					</figure>
+
+					<section class="post-full-content">
+						<div class="post-content">
+							<!--kg-card-begin: markdown-->
+
+							{{content}}
+
+						</div>
+					</section>
+
+
+						{% include aside.html %}
+
+
+					<section class="subscribe-form">
+						<h3 class="subscribe-form-title">Subscribe to</h3>
+						<p>Get the latest posts delivered right to your inbox</p>
+
+						<script type="text/javascript">
+							var submitted = false;
+						</script>
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./thankyou.html';}"></iframe>
+
+						<form action="https://docs.google.com/forms/d/e/1FAIpQLSeviKIBv3aO2bh46_mGqyQ0PUT_o9SKxxwyAG4tTr2UOmPnNg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+							<input class="confirm" type="hidden" name="confirm" /><input class="location" type="hidden"
+								name="location" /><input class="referrer" type="hidden" name="referrer" />
+
+							<div class="form-group">
+								<input class="subscribe-email" type="email" name="entry.1045781291"
+									placeholder="Your Valuable Email In Here." />
+							</div>
+							<button id="" class="" type="submit"><span>Subscribe</span></button>
+							</form>
+						</section>
+
+
+					{% include sharingbuttons.html %}
+						<div id="disqus_thread">
+						<button id="trigger-load-comments">
+						<a href="" class="comments-holder" onclick="loadDisqus();return false;">Show/Post Comments</a>
+						</button>
+						</div>
+						</article>
+			</div>
+		</main>
+			{% include footer.html %}
+	</div>
+</body>
+{% include footerscripts.html %}
+
+</html>
