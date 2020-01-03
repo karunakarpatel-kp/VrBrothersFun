@@ -6,7 +6,7 @@ permalink: /index.html
 ---
 
 <div class="w3-container w3-display-container">
-<img src="upload/1.jpg" style="width: 100%;" class="w3-card-4 w3-round">
+<img src="www.vrbrothersfun.com/upload/1.jpg" style="width: 100%;" class="w3-card-4 w3-round">
 <img src="upload/avatar.png" class="w3-circle w3-display-bottommiddle w3-border w3-border-lightgrey w3-card-4" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: -50px;">
 </div>
 <br><br>
