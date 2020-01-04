@@ -7,7 +7,7 @@ permalink: /index.html
 
 <div class="w3-container w3-display-container">
 <img src="upload/1.JPG" style="width: 100%;" class="w3-card-4 w3-round">
-<img src="upload/avatar.png" class="w3-circle w3-display-bottommiddle w3-border w3-border-lightgrey w3-card-4" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: -50px;">
+<img src="upload/avatar.png" class="w3-circle w3-display-bottommiddle w3-border w3-border-lightgrey w3-card-4 w3-image" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: -50px;">
 </div>
 <br><br>
 
@@ -140,7 +140,7 @@ permalink: /index.html
 
 <div class="w3-third">
 <div class="w3-container">
-<img src="upload/2.jpg" alt="John" style="width:100%">
+<img src="upload/2.JPG" alt="John" style="width:100%">
 </div>
 <div class="w3-container w3-center">
 <h3 class="w3-xlarge w3-rightbar"><b>Karunakar Patel</b></h3>
