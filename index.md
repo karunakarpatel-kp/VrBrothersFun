@@ -6,7 +6,7 @@ permalink: /index.html
 ---
 
 <div class="w3-container w3-display-container">
-<img src="www.vrbrothersfun.com/upload/1.jpg" style="width: 100%;" class="w3-card-4 w3-round">
+<img src="upload/1.JPG" style="width: 100%;" class="w3-card-4 w3-round">
 <img src="upload/avatar.png" class="w3-circle w3-display-bottommiddle w3-border w3-border-lightgrey w3-card-4" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: -50px;">
 </div>
 <br><br>
@@ -34,7 +34,7 @@ permalink: /index.html
 <div class="w3-row w3-container w3-margin w3-margin-bottom w3-card-16 w3-padding-0 w3-bottombar w3-border-blue">
 <div class="w3-third"> 
   <div class="w3-container w3-display-container w3-padding-0">
-    <img src="upload/4.jpg" class="w3-image">
+    <img src="upload/4.JPG" class="w3-image">
     <span class="w3-tag w3-khaki w3-large w3-display-topleft">50k+ Views</span>
   </div>
 </div>
@@ -61,7 +61,7 @@ permalink: /index.html
 <div class="w3-row w3-container w3-margin w3-card-16 w3-padding-0 w3-bottombar w3-border-blue">
 <div class="w3-third"> 
   <div class="w3-container w3-display-container w3-padding-0">
-    <img src="upload/1.jpg" class="w3-image">
+    <img src="upload/1.JPG" class="w3-image">
     <span class="w3-tag w3-khaki w3-large w3-display-topleft">50k+ Views</span>
   </div>
 </div>
@@ -89,7 +89,7 @@ permalink: /index.html
 <div class="w3-row w3-container w3-margin w3-card-16 w3-padding-0 w3-bottombar w3-border-blue">
 <div class="w3-third"> 
   <div class="w3-container w3-display-container w3-padding-0">
-    <img src="upload/3.jpg" class="w3-image">
+    <img src="upload/3.JPG" class="w3-image">
     <span class="w3-tag w3-khaki w3-large w3-display-topleft">50k+ Views</span>
   </div>
 </div>
@@ -124,7 +124,7 @@ permalink: /index.html
 <div class="w3-row">
 <div class="w3-third">
 <div class="w3-container">
-<img src="upload/1.jpg" alt="John" style="width:100%">
+<img src="upload/1.JPG" alt="John" style="width:100%">
 </div>
 <div class="w3-container w3-center">
 <h3 class="w3-xlarge w3-rightbar"><b>Karunakar Patel</b></h3>
@@ -156,7 +156,7 @@ permalink: /index.html
 
 <div class="w3-third">
 <div class="w3-container">
-<img src="upload/3.jpg" alt="John" style="width:100%">
+<img src="upload/3.JPG" alt="John" style="width:100%">
 </div>
 <div class="w3-container w3-center">
 <h3 class="w3-xlarge w3-rightbar"><b>Karunakar Patel</b></h3>
