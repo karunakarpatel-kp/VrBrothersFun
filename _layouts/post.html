@@ -1,95 +1,66 @@
----
-layout: compress
----
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	{% include header.html %}
-	<style>
-		{% include karnadesign.css %}
-	</style>
+
+  {% include header.html %}
+
+<style>{% include karnadesign.css %}</style>
+
+
+
 </head>
 
-<body class="post-template">
+<body class="home-template">
 
-	<div class="site-wrapper">
+  <div class="site-wrapper">
 
-		{% include navigation.html %}
-
-		<main id="site-main" class="site-main outer">
-			<div class="line" id="scrollIndicator"></div>
-			<div class="inner">
-				<article class="post-full post ">
-					<header class="post-full-header">
-						<section class="post-full-meta">
-							<time class="post-full-meta-date" datetime="{{page.datepublished | date_to_string}}">{{page.datepublished | date_to_string}}</time>
-						</section>
-						<h1 class="post-full-title">{{page.title}}</h1>
-					</header>
-					<div class="post-full-author-header">
-						<section class="author-card"> <img class="author-profile-image" src="/uploads/avatar.png"
-								alt="Karunakar Patel" />
-							<section class="author-card-content">
-								<h4 class="author-card-name"><a href="https://www.alltechnotricks.com/Blog.html" target="_top" rel="noopener">Karunakar Patel</a></h4>
-								<p>Read <a href="https://www.alltechnotricks.com/Blog.html" target="_top" rel="noopener">more posts</a> by this author.</p>
-							</section>
-						</section>
-					</div>
-
-					{% include sharingbuttons.html %}
-
-					<figure class="post-full-image">
-						<img src="/{{ page.image }}">
-					</figure>
-
-					<section class="post-full-content">
-						<div class="post-content">
-							<!--kg-card-begin: markdown-->
-
-							{{content}}
-
-						</div>
-					</section>
+    {% include navigation.html %}
 
 
-						{% include aside.html %}
+    <div class=" w3-content w3-container w3-margin-top">
+      <ul class="breadcrumb">
+        <li><a href="https://www.vrbrothersfun.com" target="_top" rel="noopener">Home</a></li>
+        <li><a href="https://www.vrbrothersfun.com/Blog.html" target="_top" rel="noopener">Blog</a></li>
+        <li>{{page.title}}</li>
+      </ul> 
+      </div>
+ <div class="w3-container w3-content">
+        <img src="{{page.image}}" alt="{{image.title}}" title="{{image.title}}" class="w3-image w3-left w3-card-4 w3-margin-right" style="width: 850vw; height: auto;">
+        </div>
+        
+        
 
 
-					<section class="subscribe-form">
-						<h3 class="subscribe-form-title">Subscribe to</h3>
-						<p>Get the latest posts delivered right to your inbox</p>
+<div class="w3-container w3-content w3-margin-top">
+  <div class="w3-left"><h1 class="w3-xlarge"><b><a href="#" style="text-decoration: none">{{page.title}}</a></b></h1></div>
+  </div>
 
-						<script type="text/javascript">
-							var submitted = false;
-						</script>
-						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./thankyou.html';}"></iframe>
+    <main id="site-main" class="site-main outer">
+      <div class="line" id="scrollIndicator"></div>
+      <div class="inner">
+        <div class="post-feed">
 
-						<form action="https://docs.google.com/forms/d/e/1FAIpQLSeviKIBv3aO2bh46_mGqyQ0PUT_o9SKxxwyAG4tTr2UOmPnNg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-							<input class="confirm" type="hidden" name="confirm" /><input class="location" type="hidden"
-								name="location" /><input class="referrer" type="hidden" name="referrer" />
-
-							<div class="form-group">
-								<input class="subscribe-email" type="email" name="entry.1045781291"
-									placeholder="Your Valuable Email In Here." />
-							</div>
-							<button id="" class="" type="submit"><span>Subscribe</span></button>
-							</form>
-						</section>
+{{content}}
 
 
-					{% include sharingbuttons.html %}
-						<div id="disqus_thread">
-						<button id="trigger-load-comments">
-						<a href="" class="comments-holder" onclick="loadDisqus();return false;">Show/Post Comments</a>
-						</button>
-						</div>
-						</article>
-			</div>
-		</main>
-			{% include footer.html %}
-	</div>
+        </div>
+      </div>
+
+    </main>
+
+    {% include section-carousel.html %}
+
+    
+    {% include footer.html %}
+
+  </div>
+
+
+
+
 </body>
+
 {% include footerscripts.html %}
 
 </html>

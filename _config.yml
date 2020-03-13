@@ -6,3 +6,6 @@ description:
   Google search results) and in your feed.xml site description.
 baseurl: "/" 
 url: "" 
+reCaptcha:
+  siteKey: "6Lf88tsUAAAAALtdlZlRWKW9kqeIrUG9v7FjlCE0"
+  secret: "6Lf88tsUAAAAADy4ERX27H8Vbwc2V2Zn3yOPYFmE"

@@ -1,6 +1,27 @@
-<div class="w3-container w3-margin-bottom w3-margin-top">
-<nav class="w3-bar w3-black w3-card-2">
-  <a href="https://www.vrbrothersfun.com" class="w3-button w3-bar-item">Home</a>
-  <a href="https://www.vrbrothersfun.com" class="w3-button w3-bar-item">Contact</a>
-</nav>
+<div class="w3-container w3-margin-top">
+<div class="w3-bar w3-black w3-card-4">
+  <a href="https://www.vrbrothersfun.com" class="w3-bar-item w3-button">
+    <svg fill="white" style="width: 22px; height: 22px;" viewBox="0 0 576 512"><path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"/></svg></a>
+  <a href="https://www.vrbrothersfun.com/Blog.html" target="_blank" rel="noopener" class="w3-bar-item w3-button w3-hide-small w3-right">Blog</a>
+  <a href="https://www.vrbrothersfun.com/about_me.html" target="_blank" rel="noopener" class="w3-bar-item w3-button w3-hide-small w3-right">About Me</a>
+  <a href="https://www.vrbrothersfun.com/contact_us.html" target="_blank" rel="noopener" class="w3-bar-item w3-button w3-hide-small w3-right">Contact Us</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
 </div>
+</div>
+<div class="w3-container w3-margin-bottom">
+<div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+  <a href="https://www.vrbrothersfun.com/Blog.html" target="_blank" rel="noopener" class="w3-bar-item w3-button w3-center">Blog</a>
+  <a href="https://www.vrbrothersfun.com/about_me.html" target="_blank" rel="noopener" class="w3-bar-item w3-button w3-center">About Me</a>
+  <a href="https://www.vrbrothersfun.com/contact_us.html" target="_blank" rel="noopener" class="w3-bar-item w3-button w3-center">Contact Us</a>
+</div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>

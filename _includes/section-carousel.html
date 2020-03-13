@@ -1,0 +1,45 @@
+
+<style> {% include owl.carousel.css %} </style>
+
+
+
+
+<style> {% include owl.theme.default.css %} </style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+
+
+
+<div class="w3-row">
+
+
+  
+
+{% for post in site.posts | limit: 2 %}
+
+  <div class="w3-third w3-padding">
+    <h5 class="w3-center"><b>Our Trending Video</b></h5>
+  <div class="w3-card-4 w3-round">
+  <img src="{{post.image}}" alt="{{post.title}}" title="{{post.title}}" class="w3-image w3-round" style="background-color: lightgrey;">
+  <div class="w3-padding">
+  <h3 class="w3-large"><a href="{{post.url | absolute_url }}"><b>{{post.title}}</b></a></h3>
+  <p class="w3-medium">{{post.description | truncate: 180 }}</p>
+  <a href="{{post.url | absolute_url}}" target="_blank" rel="noopener"><button class="w3-button w3-black w3-block">Watch Out</button></a>
+  </div>
+  </div>
+</div> 
+{% endfor %}
+
+<div class="w3-container w3-third">
+  <h3 class="w3-center"><b>Our Team</b></h3>
+  {% include testimonal.html %}
+  </div>
+
+
+
+  </div>
+  
