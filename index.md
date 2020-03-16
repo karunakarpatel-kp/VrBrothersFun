@@ -4,7 +4,7 @@ title: VrBrothersFun-Official Page.
 permalink: /index.html
 description: This is the official page for vrbrothersfun youtube channel which was owned by venkateswarlu azmira from kothur village of warangal rural district of telangana state. This channel contains skits which generates ultimate village comedy show forever.
 datepublished: "2020-03-13"
-datemodified: "2020-03-13"
+datemodified: "2020-03-16"
 
 ---
 
@@ -12,13 +12,13 @@ datemodified: "2020-03-13"
 
 <div class="w3-card-4 w3-display-container w3-margin" style="min-height: 200px;">
 <div class="w3-display-container mySlides">
-  <img src="upload/venkateswarlu-large.jpg" alt="venkateswarlu-azmira" title="venkateswarlu azmira" style="width:100%; background-color: lightgrey;" class="#">
+  <img src="upload/venkateswarlu-large.JPG" alt="venkateswarlu-azmira" title="venkateswarlu azmira" style="width:100%; background-color: lightgrey;" class="#">
   <div class="w3-display-bottomleft w3-padding w3-container  w3-blue w3-animate-fading">
     Venkateswarlu Azmira - Man Behind VrBrothersFun Yt Channel.
   </div>
 </div>
 <div class="w3-display-container mySlides">
-  <img src="upload/shyam-large.jpg" alt="shyam" title="ss sunder" style="width:100%; background-color: lightgrey;" class="w3-animate-right">
+  <img src="upload/shyam-large.JPG" alt="shyam" title="ss sunder" style="width:100%; background-color: lightgrey;" class="w3-animate-right">
   <div class="w3-display-bottomleft w3-container w3-padding w3-blue w3-animate-fading">
     SS Shyam Sunder - Screenplay.
   </div>

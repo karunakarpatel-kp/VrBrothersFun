@@ -5,7 +5,7 @@ description: Latest Pelli Choopulu Comedy In My Village 🚀లింగవ్�
 permalink: Blog/latest_pellichoopulu_comedy.html
 image: /upload/pellichoopulu_comedy_show.jpg
 datepublished: "2020-03-13"
-datemodified: "2020-03-13"
+datemodified: "2020-03-16"
 ---
 
 <div class="w3-container w3-content w3-padding">
