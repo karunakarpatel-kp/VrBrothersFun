@@ -2,7 +2,6 @@
 permalink: sitemap.xml
 layout: none
 ---
-
 <urlset>
 {% for post in site.posts %}
 <url>
