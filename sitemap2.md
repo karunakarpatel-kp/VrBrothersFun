@@ -10,7 +10,4 @@ layout: none
 <lastmod>{{post.datemodified}}</lastmod>
 </url>
 {% endfor %}
-<url>
-<loc>https://www.alltechnotricks.com/ads.txt</loc>
-</url>
 </urlset>
