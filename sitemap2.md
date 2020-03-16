@@ -10,4 +10,12 @@ layout: none
 <lastmod>{{post.datemodified}}</lastmod>
 </url>
 {% endfor %}
+<url>
+<loc>https://www.vrbrothersfun.com</loc>
+<lastmod>2020-03-16</lastmod>
+</url>
+<url>
+<loc>https://www.vrbrothersfun.com/Blog.html</loc>
+<lastmod>2020-03-16</lastmod>
+</url>
 </urlset>
