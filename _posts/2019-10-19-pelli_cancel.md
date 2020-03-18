@@ -6,7 +6,15 @@ permalink: Blog/nallabalu_pellichoopulu_cancel_ultimate_village_comedy.html
 image: /upload/nallabalu_pellichoopulu_cancel_ultimate_village_comedy.jpg
 datepublished: "2020-03-13"
 datemodified: "2020-03-16"
+comments: true
 ---
+
+<div class="w3-container w3-content w3-padding-16">
+{% if page.comments == true %}
+    {% include comments.html %}
+{% endif %}
+</div>
+
 
 <div class="w3-container w3-content w3-padding">
 <span class="w3-tag w3-khaki  w3-small"><a href="https://www.youtube.com/watch?v=XHQhz-bd3ws" target="_blank" rel="noopener" style="text-decoration: none">#PellichoopuluCancel</a></span>
@@ -104,7 +112,5 @@ src="https://www.youtube.com/embed/XHQhz-bd3ws?controls=1" allowfullscreen>
 <p class="w3-large w3-text-blue"><a href="https://www.youtube.com/channel/UCdFroG6tnwgPuc6vZrl0yPg" target="_blank" rel="noopener">VrBrothersFun Official Youtube Channel.</a></p>
 
 <br><hr>
-
-
 
 </div>
