@@ -1,25 +1,27 @@
-{% if site.data.comments[page.slug] %}
-  <div id="comments" class="page__comments js-comments">
-    <h2 class="title">
-      {% if site.data.comments[page.slug].size <= 1 %}
-        {{ site.data.comments[page.slug] | size | append: ' comment' }}
-      {% elsif site.data.comments[page.slug].size > 1 %}
-        {{ site.data.comments[page.slug] | size | append: ' comments' }}
-      {% endif %}
-    </h2>
-    {% assign comments = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1]._parent == comment[1]._id' %}
-    {% for comment in comments %}
-      {% assign id          = comment[1]._id %}
-      {% assign parent      = comment[1]._parent %}
-      {% assign avatar      = comment[1].avatar %}
-      {% assign email       = comment[1].email %}
-      {% assign name        = comment[1].name %}
-      {% assign url         = comment[1].url %}
-      {% assign date        = comment[1].date %}
-      {% assign message     = comment[1].message %}
-      {% include comment.html id=id parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
-    {% endfor %}
-  </div>
-{% endif %}
+<section class="pt2">
 
-{% include comment-form.html %}
+ <h2 class="f4 c-lh-title">Comments</h2>
+
+ {% for comment in site.data.comments | where: "slug", page.slug %}
+
+ <article class="mb4 pa2 pa3-ns ba b--moon-gray c-linky-visited">
+
+     <header class="pb1 bb b--light-gray mb2">
+
+         <h3 class="f5 lh-title mt0 mb1">{{ comment.name | strip_html }}</h3>
+
+         <p class="f6 gray ma0"><time><a href="{{ page.url }}#{{ comment._id}}">{{ comment.created_at | date: "%b %-d, %Y, %H:%M" }}</a></time></p>
+
+     </header>
+
+     <div class="c-no-top-margin c-linky-underline">
+
+         {{ comment.message | strip_html | markdownify | smartify }}
+
+     </div>
+
+ </article>
+
+ {% endfor %}
+
+</section>
