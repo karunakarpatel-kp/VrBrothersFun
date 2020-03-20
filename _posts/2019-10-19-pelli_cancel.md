@@ -15,7 +15,11 @@ comments: true
     {% include comments.html %}
 {% endif %}
 
+
+<hr>
+
 </div>
+
 
 
 
