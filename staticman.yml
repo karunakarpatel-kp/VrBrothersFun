@@ -96,6 +96,6 @@ comments:
 
   # reCaptcha
   reCaptcha:
-    enabled: true
+    enabled: false
     siteKey: "6LcmFuIUAAAAANXea98ULYohsOFw2kfQBslDmvMM"
     secret: "6LcmFuIUAAAAAC1shkNJdV6PGME3-rLRItApelQS"
