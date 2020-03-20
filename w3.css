@@ -237,3 +237,9 @@ w3-hide-small	Hides content on small screens (less than 601px)
 w3-hide-medium	Hides content on medium screens
 
 w3-hide-large	Hides content on large screens (larger than 992px)
+
+#reCaptcha Logins
+reCaptcha:
+enabled: true
+siteKey: "6LcmFuIUAAAAANXea98ULYohsOFw2kfQBslDmvMM"
+secret: "6LcmFuIUAAAAAC1shkNJdV6PGME3-rLRItApelQS"

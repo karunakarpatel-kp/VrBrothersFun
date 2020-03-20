@@ -10,6 +10,17 @@ comments: true
 ---
 
 <div class="w3-container w3-content w3-padding-16">
+
+{% if page.comments == true %}
+    {% include comments.html %}
+{% endif %}
+
+</div>
+
+
+
+
+<div class="w3-container w3-content w3-padding-16">
 <!-- Comments -->
 {% if site.data.comments[page.slug] %}
     <h3>
@@ -33,7 +44,7 @@ comments: true
       <p>{{ comment[1].message | markdownify }}</p>
     {% endfor %}
 {% endif %}
-<!-- Comments Form -->
+<!-- Comments Form 
   <form method="POST" action="{{ site.staticman_url }}">
     <input name="options[redirect]" type="hidden" value="https://www.vrbrothersfun.com">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
@@ -47,7 +58,7 @@ comments: true
       <textarea style="width:100%" name="fields[message]" rows="12"></textarea>
       <small>Comments will appear after moderation.</small>
       <button type="submit">Submit comment</button>
-  </form>
+  </form> -->
 </div>
 
 

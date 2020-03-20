@@ -2,3 +2,7 @@ url: "https://www.vrbrothersfun.com"
 baseurl: "/"
 exclude: [node_modules, README.md]
 staticman_url: https://api.staticman.net/v3/entry/github/karunakar2smart/vrbrothersfun/master/comments
+
+reCaptcha:
+    siteKey: "6LcmFuIUAAAAANXea98ULYohsOFw2kfQBslDmvMM"
+    secret: "6LcmFuIUAAAAAC1shkNJdV6PGME3-rLRItApelQS"
